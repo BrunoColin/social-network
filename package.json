@@ -1,13 +1,6 @@
 {
   "name": "social_network",
-  "dependencies": {
-    "@rails/actioncable": "^6.0.0",
-    "@rails/activestorage": "^6.0.0",
-    "@rails/ujs": "^6.0.0",
-    "@rails/webpacker": "4.3.0",
-    "jquery": "^3.5.1",
-    "turbolinks": "^5.2.0"
-  },
+  "private": true,
   "version": "1.0.0",
   "description": "This README would normally document whatever steps are necessary to get the application up and running.",
   "main": "index.js",
@@ -27,5 +20,17 @@
   "bugs": {
     "url": "https://github.com/BrunoColin/social-network/issues"
   },
-  "homepage": "https://github.com/BrunoColin/social-network#readme"
+  "homepage": "https://github.com/BrunoColin/social-network#readme",
+  "dependencies": {
+    "nodejs": "^0.0.0",
+    "@rails/actioncable": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "4.3.0",
+    "jquery": "^3.5.1",
+    "turbolinks": "^5.2.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.0"
+  }
 }
