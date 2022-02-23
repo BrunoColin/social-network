@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/BrunoColin/social-network#readme",
   "dependencies": {
-    "node": "16.14.0",
     "nodejs": "^0.0.0",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
@@ -33,5 +32,8 @@
   },
   "devDependencies": {
     "webpack-dev-server": "^3.11.0"
+  },
+  "engines": {
+    "node": "16.14.0"
   }
 }
