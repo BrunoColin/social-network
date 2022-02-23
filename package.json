@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/BrunoColin/social-network#readme",
   "dependencies": {
-    "nodejs": "^0.0.0",
+    "nodejs": "16.14.0",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
